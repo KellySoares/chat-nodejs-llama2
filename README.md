@@ -69,7 +69,7 @@ $ docker start ID
 ```
 
 #### 🎲 Executar direto na Máquina local
-
+- Acesse o [link](https://nodejs.org/en/download/current) e realize o download do nodeJs e instale-o na sua máquina.
 #### Instale as dependencias
 ```bash
 $ npm i
