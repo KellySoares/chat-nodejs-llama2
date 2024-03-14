@@ -11,7 +11,7 @@ processar e responder entradas de texto.
 * Docker 
 
 ## ✨ REST Endpoint da Microsoft Azure
-Com o Microsoft Azure, você pode acessar o [Llama 2](https://llama.meta.com/get-started#hosting) através dos catálogos de Modelos do Azure que é um centro para explorar coleções de modelos básicos. Neste link é possível verificar mais detalhes a respeito da REST Endpoint utilizada [Introdução do llama 2 no Azure](https://techcommunity.microsoft.com/t5/ai-machine-learning-blog/introducing-llama-2-on-azure/ba-p/3881233)
+Com o Microsoft Azure, você pode acessar o [Llama 2](https://llama.meta.com/get-started#hosting) através dos catálogos de Modelos do Azure que é um centro para explorar coleções de modelos básicos. Neste link [Introdução do llama 2 no Azure](https://techcommunity.microsoft.com/t5/ai-machine-learning-blog/introducing-llama-2-on-azure/ba-p/3881233) é possível verificar mais detalhes a respeito da REST Endpoint utilizada 
 
 ## ✨ Utilização do Socket.IO 
 Socket.IO é uma biblioteca JavaScript para comunicação bidirecional em tempo real entre clientes web e servidores. Tem duas partes: uma biblioteca do lado do cliente para navegadores e outra do lado do servidor para Node.js, possibilitando comunicação baseada em eventos em tempo real.
@@ -84,7 +84,9 @@ $ npm start
 <p>
 
   #### Tela de Criação do Apelido do Usuário do Chat
-  
+  ![image](https://github.com/KellySoares/chat-nodejs-llama2/assets/56278384/bc598921-1c1b-47f8-99cf-d3fedea666e6)
+
   #### Tela do Chat
+  ![image](https://github.com/KellySoares/chat-nodejs-llama2/assets/56278384/2ed61309-48b8-46ea-8c7f-2e10c6d16ced)
 
 </details> </p>
