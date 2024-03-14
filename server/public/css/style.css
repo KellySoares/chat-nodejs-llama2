@@ -1,0 +1,103 @@
+html,
+body {
+    font-family: Arial, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #302F31;
+    padding: 10px;
+    color: whitesmoke;
+}
+
+#sala_chat {
+    display: none;
+}
+
+#chat {
+    margin: 15px 0;
+}
+
+input[type="text"] {
+    border: 2px solid #0d6efd;
+    border-radius: 5px;
+    padding: 10px;
+    width: 75%;
+}
+
+button[type="submit"] {
+    background: #0d6efd;
+    border: none;
+    border-radius: 5px;
+    color: #FFF;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px 5px;
+    width: 18%;
+}
+
+#mensagens {
+    background: #FFF;
+    color: black;
+    border: 2px solid #0d6efd;
+    height: 70vh;
+    overflow-y: auto;
+}
+
+#mensagens .assistant p,
+.user p {
+    padding: 1em;
+    border-radius: 10px;
+    width: 80%;
+
+}
+
+#mensagens .sistema {
+    background-color: #0d6efd;
+    color: #FFF;
+    font-weight: bold;
+}
+
+#mensagens .assistant {
+    display: inline-flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: flex-start;
+}
+
+#mensagens .assistant p {
+    background-color: #B0E0E6;
+    margin-right: 0.5em;
+}
+
+#mensagens .user {
+    display: inline-flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    align-items: flex-start;
+}
+
+#mensagens .user p {
+    background-color: #E6E6FA;
+    margin-left: 0.5em;
+}
+
+
+
+.circle {
+    background-color: #0d6efd;
+    border-radius: 50%;
+    width: 3em;
+    height: 3em;
+    overflow: hidden;
+    position: relative;
+    margin: 0 0.5em;
+}
+
+.circle img {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: -webkit-fill-available;
+}
